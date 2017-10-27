@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="panel panel-success" style="margin:5%">
+        <div class="panel-heading">
+            <h3 class="panel-title">Q3</h3>
+        </div>
+        <div class="panel-body">
+            Your application should a word/phrase/sentence from the end user. Your application should determine which row(s) of keys on a QWERTY keyboard need to be used to type this input for example, the word Typewriter can be typed using only the 1st row of keys on a QWERTY keyboard.
+            
+        </div>
+    </div>
+
+    <div class="form-group" style="margin:5%">
+       
+ 
+    
+      <div class="form-group">
+        <label class="control-label">Input addons</label>
+        <div class="input-group">
+          <span class="input-group-addon">Input</span>
+          <input type="text" class="form-control" id = "text-Q3">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button" onClick=" keyboardLineJudgeHtml()">Send</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="alert alert-dismissible alert-success" id="text-Q3-answer" style="margin:5%">
+        <button type="button" class="close" data-dismiss="alert" >&times;</button>
+        
+      </div>
+      <script type="text/javascript" src="./js/keyboardLineJudge.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "patternmatch",
+  "version": "1.0.0",
+  "description": "Engligsh words pattern matching",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "dexion",
+  "license": "ISC"
+}
